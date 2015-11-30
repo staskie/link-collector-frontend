@@ -1,0 +1,110 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.login-error-message {
+  text-align: center;
+  color: red;
+}
+
+.validation-msg {
+  font-size:12px;
+  color: red;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading {
+  margin-bottom: 10px;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#header {
+  z-index:9999;
+  line-height: 50px;
+}
+
+#header span {
+  color: #999;
+}
+
+#categories {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 1px solid #eee;
+  height: 100%;
+  padding-top:80px;
+}
+
+#categories a {
+  font-weight: bold;
+  color: #009600;
+}
+
+.push-right {
+  float: right;
+}
+
+.link-url {
+  color: #999;
+}
+
+#links .list-group-item {
+  overflow:hidden;
+}
+
+#links .link-category-column {
+  border-right: 1px solid #eee;
+  height: 40px;
+  line-height: 40px;
+  color: #009600;
+  font-weight: bold;
+}
+
+#add-new-link-form .form-control {
+  margin-right: 10px;
+}
+
+#add-new-link-form .link-name {
+  width: 250px;
+}
+
+#add-new-link-form .link-url {
+  width: 450px;
+}
+
+#add-new-link-form button {
+  margin-top: -10px;
+}
+
